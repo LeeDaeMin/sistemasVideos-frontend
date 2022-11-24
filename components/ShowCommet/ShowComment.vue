@@ -9,14 +9,14 @@
             </div>
           </div>
           <div class=" py-3">
-            <h1 class=" w-[250px] h-[20px] font-semibold text-sm text-start text-white ">{{data.user_comentario[index].userR.username}}</h1>
+            <h1 class=" w-[full] h-[20px] font-semibold text-sm text-start text-white ">{{data.user_comentario[index].userR.username}}</h1>
            <div class="flex flex-row">
             <p class="w-[80px] h-[20px] font-semibold text-xs text-start text-[#C8DEFF]">{{data.user_comentario[index].fecha.substr(0, 24 - 14)}}</p>
             <p class="w-[100px] h-[20px] font-semibold text-xs text-start text-[#C8DEFF]  ">{{data.user_comentario[index].fecha.substr(11, 13 - 8)}}</p>
            </div>
           </div>
         </div>
-        <div class="w-[100%] px-4 py-2  font-semibold text-xs text-white pl-[20px] pb-[30px] pr-[30px]  rounded-md">
+        <div class="w-[full] px-4 py-2  font-semibold text-xs text-white pl-[20px] pb-[30px] pr-[30px]  rounded-md">
           <p>
             {{data.user_comentario[index].comment}}
           </p>
